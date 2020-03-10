@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-arc-progress": [
+        "dist/angular-arc-progress"
+      ],
+      "angular-arc-progress/*": [
+        "dist/angular-arc-progress/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

@@ -1,7 +1,7 @@
 import { Component, OnInit, ElementRef, ViewChild, Input } from '@angular/core';
 
 @Component({
-  selector: 'lib-angular-arc-progress',
+  selector: 'angular-arc-progress',
   templateUrl: './angular-arc-progress.component.html',
   styleUrls: ['./angular-arc-progress.component.scss'],
 })

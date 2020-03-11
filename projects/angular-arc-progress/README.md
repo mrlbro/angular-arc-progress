@@ -1,24 +1,29 @@
-# AngularArcProgress
+# Angular Progress Arc
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.14.
+Simple configurable progress bar for Angular
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name --project angular-arc-progress` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-arc-progress`.
-> Note: Don't forget to add `--project angular-arc-progress` or else it will be added to the default project in your `angular.json` file. 
+1. Install via npm: `npm install angular-arc-progress`
+2. Import to your module `import { AngularArcProgressModule } from 'angular-arc-progress';`
+3. Don't forget to add `AngularProgressArc` to your module imports `@NgModule({ ... imports: [ ... AngularArcProgressModule ] })`
 
-## Build
+## Usage
 
-Run `ng build angular-arc-progress` to build the project. The build artifacts will be stored in the `dist/` directory.
+Add component selector to your HTML: `<lib-angular-arc-progress></lib-angular-arc-progress>`
 
-## Publishing
+## Attributes
 
-After building your library with `ng build angular-arc-progress`, go to the dist folder `cd dist/angular-arc-progress` and run `npm publish`.
+|Name               |Type    |Default|Description                                          |
+|-------------------|--------|-------|-----------------------------------------------------|
+|`radius`           |`number`|200    |Arc radius in pixels                                 |
+|`progress`         |`number`|0      |Progress from 0 to 100                               |
+|`color`            |`string`|None   |Progress bar color                                   |
+|`bgColor`          |`string`|#cccccc|Background color                                     |
+|`strokeWidth`      |`string`|10     |Progress bar width                                   |
+|`bgStrokeWidth`    |`string`|10     |Background width                                     |
+|`animationDuration`|`string`|850ms  |Default CSS values, e.g. `1s`, `250ms`               |
+|`animationType`    |`string`|linear |Corresponds to CSS `animation-timing-function` values|
 
-## Running unit tests
-
-Run `ng test angular-arc-progress` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To bind values use standart HTML `attribute` syntax or Angular `property binding`:
+`<lib-angular-arc-progress radius="350" [color]="yourColorVariable"></lib-angular-arc-progress>`

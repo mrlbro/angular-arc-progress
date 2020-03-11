@@ -1,8 +1,12 @@
 {
   "name": "angular-arc-progress",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrlbro/angular-arc-progress"
   }
 }

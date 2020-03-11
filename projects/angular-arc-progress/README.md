@@ -10,7 +10,7 @@ Simple configurable progress bar for Angular
 
 ## Usage
 
-Add component selector to your HTML: `<lib-angular-arc-progress></lib-angular-arc-progress>`
+Add component selector to your HTML: `<angular-arc-progress></angular-arc-progress>`
 
 ## Attributes
 
@@ -26,4 +26,4 @@ Add component selector to your HTML: `<lib-angular-arc-progress></lib-angular-ar
 |`animationType`    |`string`|linear |Corresponds to CSS `animation-timing-function` values|
 
 To bind values use standart HTML `attribute` syntax or Angular `property binding`:
-`<lib-angular-arc-progress radius="350" [color]="yourColorVariable"></lib-angular-arc-progress>`
+`<angular-arc-progress radius="350" [color]="yourColorVariable"></angular-arc-progress>`

@@ -4,9 +4,9 @@ Simple animated configurable progress bar for Angular
 
 ## Examples
 
-![Example 1](src/assets/red-65-3s.gif)
-![Example 2](src/assets/purple-0.png)
-![Example 3](src/assets/yellow-15-bg-15.png)
+![Example 1](/angular-progress-arc/projects/angular-arc-progress/src/assets/red-65-3s.gif)
+![Example 2](/angular-progress-arc/projects/angular-arc-progress/src/assets/purple-0.png)
+![Example 3](/angular-progress-arc/projects/angular-arc-progress/src/assets/yellow-15-bg-15.png)
 
 ## Installation
 

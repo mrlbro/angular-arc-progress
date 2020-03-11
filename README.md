@@ -1,6 +1,12 @@
 # Angular Progress Arc
 
-Simple configurable progress bar for Angular
+Simple animated configurable progress bar for Angular
+
+## Examples
+
+![Example 1](src/assets/red-65-3s.gif)
+![Example 2](src/assets/purple-0.png)
+![Example 3](src/assets/yellow-15-bg-15.png)
 
 ## Installation
 
